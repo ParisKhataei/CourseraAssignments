@@ -1,0 +1,131 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding:  0px;
+}
+
+h1 {
+  margin-bottom: 50px;
+  font-family: COMIC SANS MS;
+  text-align: center;
+}
+
+p {
+  width: 400px;
+  height: 100%; 
+  font-family: COMIC SANS MS;
+  font-size: 13px;
+  color: black;
+  padding: 20px 20px 20px 20px;
+}
+
+.container {
+  width: 100%;
+}
+
+.pad {
+  padding-left: 30px;
+}
+
+.pad1 {
+  padding-left: 30px;
+}
+
+.pad2 {
+  padding-left: 30px;
+}
+
+.content1 {
+  padding-left:   30px;
+  border: solid black 2px;
+  background-color: gray;  
+}
+.content2 {
+  padding-left:   30px;
+  border: solid black 2px;
+  background-color: gray;
+}
+.content3 {
+  padding-left:   30px;
+  border: solid black 2px;
+  background-color: gray;
+}
+
+.title1 {
+  border: solid black 1px;
+  background-color: pink;
+  float: right;
+  text-align: center;
+  width: 100px;
+  font-weight: bold;
+  font-size:100%;
+}
+
+.title2 {
+  border: solid black 1px;
+  background-color: red;
+  float: right;
+  text-align: center;
+  width: 100px;
+  font-weight: bold;
+  font-size:100%;
+}
+
+.title3 {
+  border: solid black 1px;
+  background-color: yellow;
+  float: right;
+  text-align: center;
+  width: 100px;
+  font-weight: bold;
+  font-size:100%;
+}
+
+.chikenContent {
+  text-align: justify;
+  clear: right;
+  padding: 10px;
+  height: 125px;
+}
+
+.beefContent {
+  padding: 10px;
+  text-align: justify;
+  clear: right;
+  height: 125px;
+}
+
+.sushiContent {
+  text-align: justify;
+  clear: right;
+  padding: 10px;
+  height: 125px;
+}
+
+/* This is for display a desktop version*/
+@media (min-width: 992px) {
+	 .col-md-4 {
+	    float: left;
+	    width: 33.33%;
+	}
+}
+
+/* This is for display a tablet version*/
+ @media (min-width: 768px) and (max-width: 991px)  {
+	 .col-sm-6 {
+	    width: 50%;
+      float:  left;
+ 	 }
+   .thirdContent {
+    width:  100%;
+    padding:  30px 30px 30px 0px;
+   }
+
+ }
+ /* This is for display a mobile version*/
+ @media (max-width: 767px) {
+ 	.mobile {
+ 		padding: 0px 40px 0px 10px
+ }
+}
