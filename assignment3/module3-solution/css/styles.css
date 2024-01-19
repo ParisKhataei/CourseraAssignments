@@ -11,11 +11,14 @@ body {
   background-color: #2B547E;
   border-radius: 0;
   border: 0;
+  padding: 30px;
+}
+#something {
+  position: fixed;
 }
 .navbar-brand {
   padding-top: 25px;
 }
-
 .navbar-brand h1 { /* Company name */
   font-family: 'Rubik+Maps', sans-serif;
   color: #BCC6CC;
@@ -25,9 +28,7 @@ body {
   margin-top: 0;
   margin-bottom: 0;
   line-height: .75;
-
 }
-
 #nav-list {
   margin-top: 10px;
 }
