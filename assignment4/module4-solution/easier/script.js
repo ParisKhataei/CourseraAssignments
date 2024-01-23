@@ -28,6 +28,7 @@ assignment.
 WARNING!!! WARNING!!!
 
 */
+
 (function () {
 // STEP 1: (NOTHING TO DO. ALREADY DONE FOR YOU)
 // Wrap the entire contents of script.js inside of an IIFE
